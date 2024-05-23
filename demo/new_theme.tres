@@ -1,0 +1,29 @@
+[gd_resource type="Theme" load_steps=3 format=3 uid="uid://dln7fstrl28xw"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_cngot"]
+bg_color = Color(0.0901961, 0.0862745, 0.168627, 1)
+border_width_left = 3
+border_width_top = 3
+border_width_right = 3
+border_width_bottom = 3
+border_color = Color(0, 0.352941, 0.309804, 1)
+corner_radius_top_left = 6
+corner_radius_top_right = 6
+corner_radius_bottom_right = 6
+corner_radius_bottom_left = 6
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_hks6s"]
+bg_color = Color(0.0901961, 0.0862745, 0.168627, 1)
+border_width_left = 3
+border_width_top = 3
+border_width_right = 3
+border_width_bottom = 3
+border_color = Color(0, 0.352941, 0.309804, 1)
+corner_radius_top_left = 6
+corner_radius_top_right = 6
+corner_radius_bottom_right = 6
+corner_radius_bottom_left = 6
+
+[resource]
+ItemList/styles/panel = SubResource("StyleBoxFlat_cngot")
+LineEdit/styles/normal = SubResource("StyleBoxFlat_hks6s")

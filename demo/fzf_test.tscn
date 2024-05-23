@@ -1,0 +1,17 @@
+[gd_scene load_steps=2 format=3 uid="uid://dje6uhej7816c"]
+
+[ext_resource type="Theme" uid="uid://dln7fstrl28xw" path="res://new_theme.tres" id="1_r87lf"]
+
+[node name="FuzzyFindList" type="FuzzyFindList"]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -294.0
+offset_top = -189.5
+offset_right = 294.0
+offset_bottom = 189.5
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("1_r87lf")
