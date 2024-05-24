@@ -1,6 +1,7 @@
 #include "register_types.h"
 
 #include "fzf_list.h"
+#include "listed_item.h"
 
 #include <gdextension_interface.h>
 #include <godot_cpp/core/defs.hpp>
@@ -14,6 +15,7 @@ void initialize_gdextension_types(ModuleInitializationLevel p_level)
 		return;
 	}
 	GDREGISTER_CLASS(FuzzyFindList);
+	GDREGISTER_INTERNAL_CLASS(ListedItem);
 }
 
 void uninitialize_gdextension_types(ModuleInitializationLevel p_level) {

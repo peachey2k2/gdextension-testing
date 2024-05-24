@@ -1,6 +1,7 @@
-[gd_scene load_steps=2 format=3 uid="uid://dje6uhej7816c"]
+[gd_scene load_steps=3 format=3 uid="uid://dje6uhej7816c"]
 
 [ext_resource type="Theme" uid="uid://dln7fstrl28xw" path="res://new_theme.tres" id="1_r87lf"]
+[ext_resource type="Script" path="res://new_script.gd" id="2_lxcfj"]
 
 [node name="FuzzyFindList" type="FuzzyFindList"]
 anchors_preset = 8
@@ -15,3 +16,7 @@ offset_bottom = 189.5
 grow_horizontal = 2
 grow_vertical = 2
 theme = ExtResource("1_r87lf")
+
+[node name="TestNode" type="Node" parent="."]
+script = ExtResource("2_lxcfj")
+typed_array = Array[Rect2]([Rect2(321, 0, 0, 0), Rect2(4234, 0, 0, 0), Rect2(423, 0, 0, 0)])
